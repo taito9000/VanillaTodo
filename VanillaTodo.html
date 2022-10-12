@@ -4,32 +4,23 @@
 <head>
 	<title>TodoList</title>
 	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<div class=inputarea>
-		<input placeholder='TODOを入力'/>
+	<div class="inputArea">
+		<input id = "addText" placeholder='TODOを入力'/>
 		<button id = "addButton">追加</button>
 	</div>
 
-	<div class=incomplete-area>
-	<p class=title>未完了のTODO</p>
-	<ul>
-		<div class=list-row>
-		<li>TODOです</li>
-		<button>完了</button>
-		<button>削除</button>
-	</ul>
+	<div class="incompleteArea">
+		<p class=title>未完了のTODO</p>
+		<ul id = "incompleteList"></ul>
 	</div>
 
-	<div class=complete-area>
+	<div class="completeArea">
 		<p class=title>完了したTODO</p>
-			<ul>
-				<div class=list-row>
-					<li>TODOでした</li>
-					<button>戻す</button>
-				</div>
-			</ul>
+		<ul id = "completeList"></ul>
 	</div>
 
 	<script src="index.js">

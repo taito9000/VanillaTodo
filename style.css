@@ -1,4 +1,4 @@
-body {
+  body {
     font-family: sans-serif;
   }
   
@@ -25,7 +25,7 @@ body {
     margin-right: 8px;
   }
   
-  .inputarea {
+  .inputArea {
     background-color: #c1ffff;
     width: 400;
     height: 30px;
@@ -34,7 +34,7 @@ body {
     border-radius: 8px;
   }
   
-  .incomplete-area {
+  .incompleteArea {
     background-color: #c6ffe2;
     width: 400;
     min-height: 200px;
@@ -43,7 +43,7 @@ body {
     border-radius: 8px;
   }
   
-  .complete-area {
+  .completeArea {
     background-color: #ffffe0;
     width: 400;
     min-height: 200px;
